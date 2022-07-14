@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-main{
-    width: 1440px;
-    color: white;
-=======
 body, html{
     height: 100%;
 }
@@ -16,22 +11,10 @@ main{
     margin-right: auto;
     justify-content: center;
     align-items: center;
->>>>>>> 030d0db (Uploaded version for mobile devices)
 }
 
 /* Columns */
 article.column{
-<<<<<<< HEAD
-    background-color: aquamarine;
-    height: 500px;
-    width: 25%;
-    margin-top: 5%;
-    float: left;
-}
-
-article.column:first-of-type{
-    margin-left: 15%;
-=======
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -41,7 +24,6 @@ article.column:first-of-type{
 }
 
 article.column:first-of-type{
->>>>>>> 030d0db (Uploaded version for mobile devices)
     background-color: hsl(31, 77%, 52%);
     color: hsl(31, 77%, 52%);;
     border-top-left-radius: 10px;
@@ -83,11 +65,7 @@ article.column p.paragraph{
     font-family: Lexend Deca;
     color: hsla(0, 0%, 100%, 0.75);
     font-weight: 400;
-<<<<<<< HEAD
-    margin-bottom: 30%;
-=======
     margin-bottom: 1rem;
->>>>>>> 030d0db (Uploaded version for mobile devices)
 }
 
 article.column a.link{
@@ -97,18 +75,11 @@ article.column a.link{
     font-family: Lexend Deca;
     color: inherit;
     background-color: white;
-<<<<<<< HEAD
-    padding-top: 5%;
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-bottom: 5%;
-=======
     padding-top: 3%;
     padding-right: 8%;
     padding-left: 8%;
     padding-bottom: 3%;
     margin-bottom: 4rem;
->>>>>>> 030d0db (Uploaded version for mobile devices)
     border: 3px white solid;
     border-radius: 40px;
 }
@@ -116,9 +87,6 @@ article.column a.link{
 article.column a.link:hover{
     background-color: inherit;
     color: white;
-<<<<<<< HEAD
-}
-=======
 } 
 
 @media (max-width: 980px) {
@@ -141,4 +109,3 @@ article.column a.link:hover{
         margin-bottom: 30px;
     }
   }
->>>>>>> 030d0db (Uploaded version for mobile devices)
